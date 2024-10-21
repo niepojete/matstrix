@@ -1,0 +1,22 @@
+.section-uxui{
+  padding: 0 $global-padding;
+  color: $color-white;
+  background: $color-yellow-light;
+
+  .h3,.h4{
+    mix-blend-mode: exclusion;
+  }
+
+  hr{
+    color: $color-white;
+    border-color: $color-white;
+    mix-blend-mode: exclusion;
+  }
+
+  .item-uxui{
+    display: inline-block;
+    max-width: 100%;
+    padding: 15px 0;
+  }
+
+}

@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-web-apps h-screen">
+  <section class="section section-intro h-screen">
     <div class="container mx-auto">
       <div class="flex justify-center items-center h-screen">
         <MainTitle title="One man" subtitle="Digital Agency."/>

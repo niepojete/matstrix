@@ -1,0 +1,38 @@
+// paddings
+.padding-big{
+  padding: 35px 0;
+  @media (screen(md)) {
+    padding: 70px 0;
+  }
+  @media (screen(sm)) {
+    padding: 150px 0;
+  }
+}
+
+.padding-medium{
+  padding: 20px 0;
+  @media (screen(md)) {
+    padding: 35px 0;
+  }
+  @media (screen(sm)) {
+    padding: 70px 0;
+  }
+}
+
+.padding-small{
+  padding: 14px 0;
+  @media (screen(md)) {
+    padding: 20px 0;
+  }
+  @media (screen(sm)) {
+    padding: 35px 0;
+  }
+}
+
+.padding-top-none{
+  padding-top: none !important;
+}
+
+.padding-bottom-none{
+  padding-bottom: none !important;
+}

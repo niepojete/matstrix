@@ -1,13 +1,13 @@
-.section-web-apps{
+.section-intro{
   padding: 0 $global-padding;
   color: $color-white;
   background: $color-blue-dark;
   overflow: hidden;
 
   // mix blend with
-  &:before, &:after{
-    background-color: $color-black;
-  }
+  //&:before, &:after{
+  //  background-color: $color-black;
+  //}
 
   .main-title{
     position: relative;
@@ -29,7 +29,7 @@
     z-index: 0;
   }
 
-  // initial pos
+  // initial positions
   .shape-0{
     top: -5%;
     left: -25%;

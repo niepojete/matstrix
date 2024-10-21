@@ -1,0 +1,19 @@
+.section-experience{
+  padding: 0 $global-padding;
+  color: $color-black;
+  background: $color-white;
+
+  // mix blend with
+  &:before, &:after{
+    background-color: $color-black;
+  }
+
+  img{
+    max-width: 100px;
+    max-height: 60px;
+    @media (screen(sm)) {
+      max-width: 170px;
+      max-height: 80px;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.section-web-dev{
+  padding: 60px $global-padding;
+  color: $color-sand;
+  background: $color-blue-dark;
+  @media (screen(md)) {
+    padding: 90px $global-padding 30px;
+  }
+
+  hr{
+    color: $color-sand;
+    border-color: $color-sand;
+  }
+
+  .dev-list{
+
+  }
+
+  table td{
+    padding: 4px 2px;
+    border-bottom: 1px solid $color-gray;
+    font-size: 12px;
+    @media (screen(md)) {
+      padding: 7px 2px;
+      font-size: 16px;
+    }
+    &.title{
+      width: 37%;
+    }
+    &.desc{
+      width: 38%;
+      @media (screen(xs)) {
+        width: 40%;
+      }
+    }
+    &.time{
+      width: 20%;
+      @media (screen(xs)) {
+        width: 13%;
+      }
+    }
+    &.url{
+      width: 15%;
+      a{
+        display: inline-block;
+        margin: 0 2px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  img{
+    max-width: 40px;
+    max-height: 20px;
+    //filter: grayscale(1);
+    @media (screen(md)) {
+      max-width: 80px;
+      max-height: 40px;
+    }
+  }
+}

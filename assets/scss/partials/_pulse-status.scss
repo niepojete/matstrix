@@ -1,0 +1,35 @@
+.pulse-status{
+  position: relative;
+
+  // active
+  span{
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    &.dot{
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      animation: pulse .5s infinite alternate;
+      background: $color-green-light;
+      @media (screen(md)) {
+        width: 10px;
+        height: 10px;
+      }
+    }
+    &.dot-text{
+
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(.3);
+    background-color: transparent;
+  }
+  100% {
+    transform: scale(1);
+    background-color: $color-green-light;
+  }
+}

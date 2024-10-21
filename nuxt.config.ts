@@ -21,7 +21,15 @@ export default defineNuxtConfig({
   head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      //titleTemplate: "%s" // cannot be set in here, see: app.vue
+      link: [
+        { rel: 'icon', type: 'image/png', sizes: '256x256', href: '/icon256.png' },
+        { rel: 'icon', type: 'image/png', sizes: '128x128', href: '/icon128.png' },
+        { rel: 'icon', type: 'image/png', sizes: '64x64', href: '/icon64.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/icon32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/icon16.png' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+      ]
     }
   },
 
@@ -34,6 +42,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@morev/vue-transitions/nuxt',
+    '@zadigetvoltaire/nuxt-gtm'
   ],
 
   // plugins
@@ -49,5 +58,10 @@ export default defineNuxtConfig({
   // transitions
   vueTransitions: {
     // The same options as in the plugin itself.
+  },
+
+  // gtm
+  gtm: {
+    id: 'GTM-K87VCLJZ'
   }
 })

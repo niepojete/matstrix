@@ -1,5 +1,17 @@
 <template>
-  <div>
-    <h1>Web Apps</h1>
-  </div>
+  <main class="page page-index" ref="el">
+    <SectionIntro />
+    <SectionServices />
+    <SectionWebDev />
+    <SectionMore theme="blue" />
+  </main>
 </template>
+
+<script setup lang="ts">
+// meta
+definePageMeta({
+  name: 'WebApps',
+  layout: 'default',
+  title: null
+})
+</script>

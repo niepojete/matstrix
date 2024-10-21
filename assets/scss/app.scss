@@ -1,0 +1,44 @@
+// variables
+@import "variables.scss";
+
+// fonts
+@import '../fonts/novecento/novecento-wide.css';
+
+// typography & aesthetics
+@import "typography.scss";
+@import "paddings.scss";
+
+// components
+@import "components/app-header.scss";
+@import "components/app-header-modal.scss";
+@import "components/main-title.scss";
+
+// navs
+@import "navs/header-nav.scss";
+@import "navs/main-nav.scss";
+@import "navs/more-nav.scss";
+
+// partials
+@import "partials/hamburger-icon.scss";
+@import "partials/pulse-status.scss";
+
+// all sections
+@import "section.scss";
+
+// specific section
+@import "sections/about.scss";
+@import "sections/experience.scss";
+@import "sections/intro.scss";
+@import "sections/logo.scss";
+@import "sections/me.scss";
+@import "sections/more.scss";
+@import "sections/print.scss";
+@import "sections/services.scss";
+@import "sections/tech-stack.scss";
+@import "sections/uxui.scss";
+@import "sections/web-dev.scss";
+
+// all pages
+@import "page.scss";
+
+// specific page

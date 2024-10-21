@@ -1,0 +1,66 @@
+.section-more{
+  padding: 0 $global-padding;
+
+  // colors
+  &.theme-white{
+    color: $color-black;
+    background: $color-white;
+  }
+  &.theme-black{
+    color: $color-white;
+    background: $color-black;
+  }
+  &.theme-gray{
+    color: $color-gray;
+    background: $color-gray-lighter;
+    .more-nav .item a{
+      color: $color-white;
+      background: $color-gray;
+      &.router-link-active{
+        color: $color-white;
+        background: $color-green-light;
+      }
+    }
+  }
+  &.theme-white{
+    color: $color-black;
+    background: $color-white;
+    .more-nav .item a{
+      color: $color-black;
+      border: 1px solid $color-black;
+      background: transparent;
+      &.router-link-active{
+        color: $color-white;
+        border: none;
+        background: $color-green-light;
+      }
+    }
+  }
+  &.theme-yellow{
+    color: $color-blue-light;
+    background: $color-yellow-light;
+    .more-nav .item a{
+      color: $color-blue-light;
+      border: 1px solid $color-blue-light;
+      background: transparent;
+      &.router-link-active{
+        color: $color-white;
+        background: $color-blue-light;
+      }
+    }
+  }
+  &.theme-blue{
+    color: $color-sand;
+    background: $color-blue-dark;
+    .more-nav .item a{
+      color: $color-sand;
+      border: 1px solid $color-sand;
+      background: transparent;
+      &.router-link-active{
+        color: $color-sand;
+        border: none;
+        background: $color-green-light;
+      }
+    }
+  }
+}

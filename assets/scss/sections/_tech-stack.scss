@@ -1,0 +1,23 @@
+.section-tech-stack{
+  padding: 60px $global-padding;
+  color: $color-black;
+  background: $color-white;
+  @media (screen(md)) {
+    padding: 120px $global-padding 0;
+  }
+
+  .tech-list{
+    padding-left: 30%;
+    list-style: none;
+  }
+
+  img{
+    max-width: 40px;
+    max-height: 20px;
+    filter: grayscale(1);
+    @media (screen(md)) {
+      max-width: 80px;
+      max-height: 40px;
+    }
+  }
+}

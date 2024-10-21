@@ -1,0 +1,26 @@
+.main-nav{
+  padding: 95px 15px 0;
+  @media (screen(xs)) {
+    padding: 95px 0 0;
+  }
+
+  .item-main-nav{
+    padding: 15px 1rem;
+    border-bottom: 1px solid $color-gray-lighter;
+  }
+
+  .router-link-active{
+    color: $color-white;
+    background: $color-black;
+    svg{
+      transform: rotate(45deg);
+    }
+  }
+}
+
+// todo move to boxes
+.contact-box{
+  padding: 15px;
+  border: 1px solid $color-gray-lighter;
+  border-top: 0;
+}

@@ -1,0 +1,10 @@
+.main-title{
+  padding: 100px 0 40px;
+  color: $color-white;
+  mix-blend-mode: exclusion;
+  text-align: left;
+  pointer-events: none;
+  @media (screen(2xl)) {
+    padding: 8% 0 5%; // todo
+  }
+}

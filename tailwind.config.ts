@@ -11,6 +11,12 @@ export default <Partial<Config>>{
             xl: '1680px',
             '2xl': '1680px',
         },
+        extend: {
+            gap: {
+                '16': '4rem',
+                '24': '6rem',
+            }
+        }
     },
     content: ['./pages/**/*.{html,js}', './components/**/*.{html,js}'],
     plugins: [typography()],
