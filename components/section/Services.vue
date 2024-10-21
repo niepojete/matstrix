@@ -5,7 +5,7 @@
     <!-- todo move to data-->
       <transition-slide :delay="700">
         <div v-if="isVisible"
-             class="grid md:gap-x-8 md:gap-y-8 grid-cols-2 md:grid-cols-3 xl:grid-cols-5 place-items-center">
+             class="grid md:gap-x-8 md:gap-y-8 grid-cols-2 md:grid-cols-3 xl:grid-cols-5 py-5 place-items-center">
           <div class="service-box">
             <img src="/img/svg/icon-speech.svg"/>
             <h3 class="h3">consulting</h3>
