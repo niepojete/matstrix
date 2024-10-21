@@ -1,0 +1,53 @@
+.more-nav{
+  padding: 20px 0;
+  @media (screen(xs)) {
+    padding: 60px 0;
+  }
+
+  .item{
+    position: relative;
+    width: 100%;
+
+    svg{
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      transform: rotate(0) scale(2);
+      transition: all .15s $global-transition;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      min-height: 90px;
+      padding: 55px 25px;
+
+      color: $color-white;
+      font-family: $font-nove;
+      font-size: 10.5px;
+      text-transform: uppercase;
+      text-align: right;
+
+      background: $color-gray-dark;
+      transform: scale(1);
+      transition: all .15s $global-transition;
+      @media (screen(sm)) {
+        min-height: 330px;
+        padding: 65px 25px;
+      }
+
+      &:hover,
+      &.router-link-active{
+        background: $color-green-light;
+        svg{
+          right: 25px;
+          transform: rotate(-45deg) scale(2);
+        }
+      }
+
+      &:hover{
+        transform: scale(1.025);
+      }
+    }
+  }
+}

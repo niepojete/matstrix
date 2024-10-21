@@ -1,0 +1,52 @@
+.hamburger-icon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  top: -300px;
+  left: 3%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    transform: scale(1.25);
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+  }
+
+  &.visible{
+    top: 10%;
+  }
+
+  .line-0,
+  .line-1,
+  .line-2 {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    width: 24px;
+    height: 2px;
+    background-color: $color-white;
+    transition: all .3s $global-transition;
+  }
+
+  .line-0 {
+    transform: translateY(-8px);
+    animation-delay: 100ms;
+    &.active{
+      transform: rotate(40deg);
+    }
+  }
+
+  .line-1{
+    opacity: 1;
+    &.active{
+      opacity: 0;
+    }
+  }
+
+  .line-2 {
+    transform: translateY(8px);
+    animation-delay: 250ms;
+    &.active{
+      transform: rotate(-40deg);
+    }
+  }
+}
