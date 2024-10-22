@@ -62,6 +62,8 @@ export default defineNuxtConfig({
 
   // gtm
   gtm: {
-    id: 'GTM-K87VCLJZ'
+    id: "GTM-K87VCLJZ",
+    defer: false,
+    enabled: true
   }
 })
