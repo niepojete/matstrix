@@ -12,12 +12,10 @@
   }
 
   img{
-    max-width: 40px;
-    max-height: 20px;
+    max-width: 25px;
     filter: grayscale(1);
     @media (screen(md)) {
-      max-width: 80px;
-      max-height: 40px;
+      max-width: 40px;
     }
   }
 }
