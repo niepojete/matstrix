@@ -100,6 +100,28 @@ export const useStore = defineStore('data', {
                 ]
             }
         ],
+        services: [{
+                title: "Consulting",
+                desc: "Be informed on technology, efficient use of resources and strategy that align with your business goals.",
+                image: "/img/svg/icon-speech.svg"
+            },{
+                title: "Prototyping",
+                desc: "Visualize, test and refine design concepts early in the process, reduce the risk of costly changes later.",
+                image: "/img/svg/icon-pencil.svg"
+            },{
+                title: "Design",
+                desc: "Create appealing interface, experience and effectively communicate your brand's message.",
+                image: "/img/svg/icon-paint.svg"
+            },{
+                title: "Development",
+                desc: "Transform design concepts into functional, interactive product directly impacting user satisfaction.",
+                image: "/img/svg/icon-code.svg"
+            },{
+                title: "Maintenance",
+                desc: "Ensure your product stays updated, secure and performs optimally over time.",
+                image: "/img/svg/icon-restore.svg"
+            },
+        ],
         companies: [{
                 image: "/img/svg/logo-kp.svg",
                 title: 'Logo Kompania Piwowarska'
