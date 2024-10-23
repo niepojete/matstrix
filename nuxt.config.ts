@@ -18,19 +18,41 @@ export default defineNuxtConfig({
 
   // app
   app: {
-  head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-      link: [
-        { rel: 'icon', type: 'image/png', sizes: '256x256', href: '/icon256.png' },
-        { rel: 'icon', type: 'image/png', sizes: '128x128', href: '/icon128.png' },
-        { rel: 'icon', type: 'image/png', sizes: '64x64', href: '/icon64.png' },
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/icon32.png' },
-        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/icon16.png' },
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+    head: {
+        charset: 'utf-8',
+        viewport: 'width=device-width, initial-scale=1',
+        link: [
+          { rel: 'icon', type: 'image/png', sizes: '256x256', href: '/icon256.png' },
+          { rel: 'icon', type: 'image/png', sizes: '128x128', href: '/icon128.png' },
+          { rel: 'icon', type: 'image/png', sizes: '64x64', href: '/icon64.png' },
+          { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/icon32.png' },
+          { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/icon16.png' },
+          { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+          { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+        ],
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'One-man digital agency.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'matstrix.com'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'One-man digital agency.'
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: '/og-image.png'
+        },
       ]
-    }
+    },
   },
 
   // styles
